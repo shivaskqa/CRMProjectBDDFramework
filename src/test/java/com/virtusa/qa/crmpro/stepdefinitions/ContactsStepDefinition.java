@@ -1,7 +1,6 @@
 package com.virtusa.qa.crmpro.stepdefinitions;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.Calendar;
 import java.util.Properties;
 

@@ -35,7 +35,7 @@ public class LoginStepDefinition {
 	@Given("^that user launches the application$")
 	public void that_user_launches_the_application() throws Throwable {
 		driver=TestBase.getDriver();;
-		Properties prop=TestBase.getProperties();;
+		Properties prop=TestBase.getProperties();
 		TestBase.setUp(prop.getProperty("url"));
 	}
 
