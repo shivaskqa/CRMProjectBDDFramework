@@ -57,7 +57,8 @@ public void that_user_is_in_Home_Page_and_hover_on_Contacts_Tab_and_click_on_New
 @When("^user enters following details in New Contct Page$")
 public void user_enters_following_details_in_New_Contct_Page(DataTable contactData) throws Throwable {
     System.out.println(cpage==null);
-	cpage.setDataInContactsPage(contactData);
+	Thread.sleep(5000);
+    cpage.setDataInContactsPage(contactData);
 	
 	
 }
@@ -75,9 +76,7 @@ final public void getScreenshot(Scenario scenario) throws Throwable
 {
 	String screenshotName = scenario.getName().replaceAll(" ", "_");
 	Calendar c=Calendar.getInstance();
-	    Thread.sleep(5000);
-		System.out.println("This is from Contacts Step Drinigtion");
-		System.out.println(driver==null);
+	    
 		 //This takes a screenshot from the driver at save it to the specified location
 		 File sourcePath = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		 
@@ -91,8 +90,7 @@ final public void getScreenshot(Scenario scenario) throws Throwable
 		 //This attach the specified screenshot to the test
 		 Reporter.addScreenCaptureFromPath(destinationPath.toString());
 		 
-		Thread.sleep(10000);
-	
+		
 	driver.quit();
 }
 

@@ -17,7 +17,7 @@ public class ContactsPage{
 	public WebDriver driver;
 	
 	
-	@FindBy(xpath="//select[@name='title']")
+	@FindBy(css="select[name='title']")
 	@CacheLookup
 	WebElement selectTitle;
 	

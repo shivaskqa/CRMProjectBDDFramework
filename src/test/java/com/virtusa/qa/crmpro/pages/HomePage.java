@@ -40,14 +40,11 @@ public class HomePage
     }
     
     public void hoverToContactsTab()
-    {   System.out.println(driver==null); 
+    {    
     	driver.switchTo().frame("mainpanel");
-    	System.out.println(driver==null);
+    	
     	Actions action=new Actions(driver);
-    	System.out.println(action==null);
-    	System.out.println(driver.getTitle());
-    	System.out.println(contactsTab==null);
-    	if(contactsTab.isDisplayed())
+    	
     	action.moveToElement(contactsTab).build().perform();
     	    	
     }
