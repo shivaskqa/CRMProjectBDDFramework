@@ -79,9 +79,7 @@ public class LoginStepDefinition {
 		String screenshotName = scenario.getName().replaceAll(" ", "_");
 		Calendar c=Calendar.getInstance();
 		
-			  Thread.sleep(5000);
-			  System.out.println("This is from LoginStepDefinition");System.out.println(driver==null);
-			 //This takes a screenshot from the driver at save it to the specified location
+			 
 			 File sourcePath = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			 
 			 //Building up the destination path for the screenshot to save
