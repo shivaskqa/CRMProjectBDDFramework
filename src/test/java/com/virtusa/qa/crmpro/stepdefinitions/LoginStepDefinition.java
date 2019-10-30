@@ -83,7 +83,7 @@ public class LoginStepDefinition {
 			 
 			 //Building up the destination path for the screenshot to save
 			 //Also make sure to create a folder 'screenshots' with in the cucumber-report folder
-			 File destinationPath = new File(System.getProperty("user.dir") + "/target/cucumber-reports/"+ screenshotName +c.getTimeInMillis()+".png");
+			 File destinationPath = new File(System.getProperty("user.dir") + "/target/cucumber-reports/screenshots"+ screenshotName +c.getTimeInMillis()+".png");
 			 
 			 //Copy taken screenshot from source location to destination location
 			 Files.copy(sourcePath, destinationPath);   
