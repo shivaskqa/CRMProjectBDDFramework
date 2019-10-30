@@ -68,8 +68,7 @@ public class LoginStepDefinition {
 		
 		boolean flag=test.isHomePageDisplayed();
 		//Assert.assertEquals(true,flag);
-		
-		
+				
 		
 		}
 
@@ -88,6 +87,7 @@ public class LoginStepDefinition {
 			 
 			 //Copy taken screenshot from source location to destination location
 			 Files.copy(sourcePath, destinationPath);   
+			 
 			 
 			 //This attach the specified screenshot to the test
 			 Reporter.addScreenCaptureFromPath(destinationPath.toString());

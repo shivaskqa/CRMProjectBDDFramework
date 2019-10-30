@@ -90,6 +90,7 @@ final public void getScreenshot(Scenario scenario) throws Throwable
 		 //This attach the specified screenshot to the test
 		 Reporter.addScreenCaptureFromPath(destinationPath.toString());
 		 
+		 Thread.sleep(10000);
 		
 	driver.quit();
 }
