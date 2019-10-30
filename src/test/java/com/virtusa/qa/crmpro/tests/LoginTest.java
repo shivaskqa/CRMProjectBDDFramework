@@ -43,4 +43,9 @@ public class LoginTest extends TestBase{
 		return lpage.isHomePageDisplayed();
 		
 	}
+	
+	public boolean isSignUpDisplayed()
+	{
+		return lpage.linkSignUpIsDisplayed();
+	}
 }

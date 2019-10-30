@@ -39,7 +39,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
@@ -53,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 30, 2019 11:40:37 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Oct 30, 2019 02:55:58 PM</span>
 				</a>
 			</li>
 			<li>
@@ -79,7 +78,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -141,10 +139,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -156,10 +154,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>2</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='50%'>2</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -171,10 +169,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='83.333%'><span class='strong'>10</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>9</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='16.667%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -191,12 +189,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Validating Contacts feature in Home Page</span>
-						<span class='test-time'>Oct 30, 2019 11:40:38 AM</span>
+						<span class='test-time'>Oct 30, 2019 02:55:58 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 54s+632ms</span>
+	<span class='duration right label'>0h 1m 24s+364ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Save details in New Contact Page</span>
@@ -225,7 +223,7 @@
 			
 			<span class="bdd-step-name">Then details should be Saved successfully</span>
 			<ul class='screenshots right'>
-				<li><a data-featherlight="image" href="C:\Users\skandha\eclipse-workspace\CRMPROProjectBDDFramework\target\cucumber-reports\screenshots\Save_details_in_New_Contact_Page1572415893179.png"><i class='material-icons'>panorama</i></a></li>
+				<li><a data-featherlight="image" href="C:\Users\skandha\eclipse-workspace\CRMPROProjectBDDFramework\target\cucumber-reports\screenshots\Save_details_in_New_Contact_Page1572427643261.png"><i class='material-icons'>panorama</i></a></li>
 			</ul>
 				<div class='pre'>passed</div>
 			
@@ -236,15 +234,15 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='6'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='6'>
 					<div class='test-heading'>
 						<span class='test-name'>Login Page validation</span>
-						<span class='test-time'>Oct 30, 2019 11:41:45 AM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Oct 30, 2019 02:57:36 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenariooutline node' test-id='7' status='fail'>
-	<span class='duration right label'>0h 2m 1s+149ms</span>
+<div class='scenariooutline node' test-id='7' status='pass'>
+	<span class='duration right label'>0h 1m 31s+226ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Successful validation with valid credentials</span>
@@ -265,19 +263,19 @@
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='10' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When user enters "naveenk","test123" and click on Login button</span>
+						<span class="bdd-step-name">When user enters "shiva","test" and click on Login button</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='11' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then Home Page should be displayed successfully</span>
+						<span class="bdd-step-name">Then Login Page should be displayed successfully</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\skandha\eclipse-workspace\CRMPROProjectBDDFramework\target\cucumber-reports\screenshots\Successful_validation_with_valid_credentials1572415944446.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="C:\Users\skandha\eclipse-workspace\CRMPROProjectBDDFramework\target\cucumber-reports\Successful_validation_with_valid_credentials1572427691647.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
 							<div class='pre'>passed</div>
 					</li>
 				</ul>
 		</li>
-		<li test-id='12' class='node scenario fail' status='fail'>
+		<li test-id='12' class='node scenario pass' status='pass'>
 			<div class='category-list'>
 				<span class='category label white-text'>@logintest</span>
 			</div>
@@ -292,58 +290,15 @@
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='14' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When user enters "shiva","test" and click on Login button</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='15' class='node then fail' status='fail'><b>Then</b>
-						<span class="bdd-step-name">Then Home Page should be displayed successfully</span>
-						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\skandha\eclipse-workspace\CRMPROProjectBDDFramework\target\cucumber-reports\screenshots\Successful_validation_with_valid_credentials1572415984577.png"><i class='material-icons'>panorama</i></a></li>
-						</ul>
-							<div class='pre'><pre>org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-523ER982', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
-	at com.virtusa.qa.crmpro.tests.LoginTest.isHomePageDisplayed(LoginTest.java:42)
-	at com.virtusa.qa.crmpro.stepdefinitions.LoginStepDefinition.home_Page_should_be_displayed_successfully(LoginStepDefinition.java:69)
-	at ✽.Then Home Page should be displayed successfully(LoginPageTestScenarioes.feature:11)
-</pre></div>
-					</li>
-				</ul>
-		</li>
-		<li test-id='16' class='node scenario fail' status='fail'>
-			<div class='category-list'>
-				<span class='category label white-text'>@logintest</span>
-			</div>
-			
-			<b>Scenario</b>
-			
-			<span class="bdd-step-name">Successful validation with valid credentials</span>
-			
-				<ul class='steps'>
-					<li test-id='17' class='node given pass' status='pass'><b>Given</b>
-						<span class="bdd-step-name">Given that user launches the application</span>
-							<div class='pre'>passed</div>
-					</li>
-					<li test-id='18' class='node when pass' status='pass'><b>When</b>
 						<span class="bdd-step-name">When user enters "xyz","testpass" and click on Login button</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='19' class='node then fail' status='fail'><b>Then</b>
-						<span class="bdd-step-name">Then Home Page should be displayed successfully</span>
+					<li test-id='15' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then Login Page should be displayed successfully</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="C:\Users\skandha\eclipse-workspace\CRMPROProjectBDDFramework\target\cucumber-reports\screenshots\Successful_validation_with_valid_credentials1572416026802.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="C:\Users\skandha\eclipse-workspace\CRMPROProjectBDDFramework\target\cucumber-reports\Successful_validation_with_valid_credentials1572427748037.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
-							<div class='pre'><pre>org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-523ER982', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
-	at com.virtusa.qa.crmpro.tests.LoginTest.isHomePageDisplayed(LoginTest.java:42)
-	at com.virtusa.qa.crmpro.stepdefinitions.LoginStepDefinition.home_Page_should_be_displayed_successfully(LoginStepDefinition.java:69)
-	at ✽.Then Home Page should be displayed successfully(LoginPageTestScenarioes.feature:11)
-</pre></div>
+							<div class='pre'>passed</div>
 					</li>
 				</ul>
 		</li>
@@ -426,7 +381,7 @@ Driver info: driver.version: unknown
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 30, 2019 11:40:38 AM</td>
+										<td>Oct 30, 2019 02:55:58 PM</td>
 										<td class='linked' test-id='1'>Validating Contacts feature in Home Page</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -439,14 +394,13 @@ Driver info: driver.version: unknown
 					<div class='category-heading'>
 						<span class='category-name'>@logintest</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
-							<span class='label fail'>2</span>
+							<span class='label pass'>2</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							<span class='label red lighten-1 white-text'>Failed: 2</span>
+							<span class='label green accent-4 white-text'>Passed: 2</span>
+							
 							
 						</div>
 					
@@ -461,19 +415,14 @@ Driver info: driver.version: unknown
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 30, 2019 11:41:45 AM</td>
+										<td>Oct 30, 2019 02:57:36 PM</td>
 										<td class='linked' test-id='8'>Login Page validation.Successful validation with valid credentials.Successful validation with valid credentials</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Oct 30, 2019 11:42:35 AM</td>
+										<td>Oct 30, 2019 02:58:25 PM</td>
 										<td class='linked' test-id='12'>Login Page validation.Successful validation with valid credentials.Successful validation with valid credentials</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-									<tr>
-										<td>Oct 30, 2019 11:43:17 AM</td>
-										<td class='linked' test-id='16'>Login Page validation.Successful validation with valid credentials.Successful validation with valid credentials</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -492,88 +441,6 @@ Driver info: driver.version: unknown
 	</div>
 </div>
 <!-- category view -->
-<div id='exception-view' class='view hide'>
-
-    <section id='controls'>
-        <div class='controls grey lighten-4'>
-            <!-- search -->
-            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
-                <a href="#" class='search-div'>
-                    <i class='material-icons'>search</i> Search
-                </a>
-
-                <div class='input-field left hide'>
-                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-                </div>
-
-            </div>
-            <!-- search -->
-        </div>
-    </section>
-
-    <div class='subview-left left'>
-
-        <div class='view-summary'>
-            <h5>Exceptions</h3>
-                <ul id='exception-collection' class='exception-collection'>
-
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchFrameException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Oct 30, 2019 11:43:04 AM</td>
-                                                        <td class='linked' test-id='15'>Login Page validation.Successful validation with valid credentials.Successful validation with valid credentials.Then Home Page should be displayed successfully</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-523ER982', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
-	at com.virtusa.qa.crmpro.tests.LoginTest.isHomePageDisplayed(LoginTest.java:42)
-	at com.virtusa.qa.crmpro.stepdefinitions.LoginStepDefinition.home_Page_should_be_displayed_successfully(LoginStepDefinition.java:69)
-	at ✽.Then Home Page should be displayed successfully(LoginPageTestScenarioes.feature:11)
-</pre></pre></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Oct 30, 2019 11:43:46 AM</td>
-                                                        <td class='linked' test-id='19'>Login Page validation.Successful validation with valid credentials.Successful validation with valid credentials.Then Home Page should be displayed successfully</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-523ER982', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
-	at com.virtusa.qa.crmpro.tests.LoginTest.isHomePageDisplayed(LoginTest.java:42)
-	at com.virtusa.qa.crmpro.stepdefinitions.LoginStepDefinition.home_Page_should_be_displayed_successfully(LoginStepDefinition.java:69)
-	at ✽.Then Home Page should be displayed successfully(LoginPageTestScenarioes.feature:11)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                </ul>
-        </div>
-    </div>
-
-    <div class='subview-right left'>
-        <div class='view-summary'>
-            <h5 class='exception-name'></h5>
-        </div>
-    </div>
-</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -589,31 +456,31 @@ Driver info: driver.version: unknown
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>4</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>12</div>
+					<div class='panel-lead'>9</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 30, 2019 11:40:37 AM</div>
+					<div class='panel-lead'>Oct 30, 2019 02:55:58 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 30, 2019 11:43:59 AM</div>
+			 		<div class='panel-lead'>Oct 30, 2019 02:59:26 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>201,350ms</div>
+					<div class='panel-lead'>208,311ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -639,11 +506,11 @@ Driver info: driver.version: unknown
 						</tr>
 						<tr>
 							<td>@logintest</td>
-							<td>1</td>
 							<td>2</td>
 							<td>0</td>
+							<td>0</td>
 							<td>
-									33.333%
+									100%
 							</td>
 						</tr>
 					</table>
@@ -659,31 +526,31 @@ Driver info: driver.version: unknown
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
-				failParent: 1,
+				passParent: 2,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				
-				passChild: 2,
-				failChild: 2,
+				passChild: 3,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 2,
+				exceptionsChild: 0,
 				
-				passGrandChild: 10,
-				failGrandChild: 2,
+				passGrandChild: 9,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
 				skipGrandChild: 0,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 2,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		

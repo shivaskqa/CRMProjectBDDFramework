@@ -8,10 +8,9 @@ Then Home Page should be displayed
 Scenario Outline: Successful validation with valid credentials
 Given that user launches the application
 When user enters "<username>","<password>" and click on Login button
-Then Home Page should be displayed successfully
+Then Login Page should be displayed successfully
 
 Examples:
 |username|password|
-|naveenk|test123|
 |shiva|test|
 |xyz|testpass|

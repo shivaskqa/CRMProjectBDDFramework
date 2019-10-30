@@ -25,6 +25,9 @@ public class LoginPage{
 	@FindBy(xpath="//a[@title='Home']")
 	WebElement homeTab;
 	
+	@FindBy(xpath="//a[contains(text(),'Sign Up')]")
+	WebElement link_SingUp;
+	
 	public LoginPage(WebDriver driver)
 	{
 	    this.driver=driver;
@@ -55,4 +58,10 @@ public class LoginPage{
 		return homeTab.isDisplayed();
 		
 	}
+	
+	public boolean linkSignUpIsDisplayed()
+	{
+		return link_SingUp.isDisplayed();
+	}
+	
 }
